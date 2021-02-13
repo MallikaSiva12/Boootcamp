@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- create a form that accepts the following fields.
+		
+
+
+	 -->
+    <form>
+        <!--1.Name - Text-->
+        <div>
+            <label>Name</label>
+            <input type="text" name="YourName">
+        </div>
+        <br/>
+        <!--2.Phone - Number-->
+        <div>
+            <label>Phone</label>
+            <input type="number" name="Phone">
+        </div>
+        <br/>
+        <!--3.Email - Input type email-->
+        <div>
+            <label>Email</label>
+            <input type="email" name="Email">
+        </div>
+        <br/>
+        <!--4.Which taxi do you require? Car,Van,	Tuk Tuk- Radio-->
+        <div>
+            <label>Which Taxi do you require?</label>
+            <input type="radio" name="Taxi" value="Car">Car
+            <input type="radio" name="Taxi" value="Van">Van
+            <input type="radio" name="Taxi" value="Tuk Tuk">Tuk Tuk
+        </div>
+        <br/>
+        <!-- 5.Extras -	Baby Seat
+        Wheelchair Access
+        Stock Tip Checkboxes -->
+        <div>
+            <label>Extras</label>
+            <input type="checkbox" name="Extras" value="Baby Seat">Baby Seat
+            <input type="checkbox" name="Extras" value="Wheelchair Access">Wheelchair Access
+            <input type="checkbox" name="Extras" value="Stock Tip">Stock Tip
+        </div>
+        <br/>
+        <!-- 6.Pickup Date/Time - Datetime (use input type = datetime)
+        mm/dd/yyyy, --:-- – -->
+        <div>
+            <label>Pickup Date/Time</label>
+            <input type="datetime-local" name="datetime">
+        </div>
+        <br/>
+        <!--7.Pickup Place - Select Select One-->
+        <div>
+            <label>Pickup Place</label>
+            <select name="pickupPlace">
+                <option value="ny">NY</option>
+                <option value="dc">DC</option>
+                <option value="la">LA</option>
+            </select>
+        </div>
+        <br/>
+        <!-- 8.Dropoff Place  - text area  -->
+        <div>
+            <label>Dropoff Place</label>
+           <br/>
+            <textarea rows="5"></textarea>
+        </div>
+        <!-- 9.Special Instructions  -->
+        <div>
+            <label>Special Instructions</label><br/>
+            <textarea rows="5"></textarea>
+        </div>
+        <!-- 10.Submit Booking - button -->
+        <div>
+           <br/> <button>Submit</button>                
+    
+        </div>
+    </form>
+</body>
+
+</html>
